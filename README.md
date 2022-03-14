@@ -28,7 +28,9 @@
 
 -->
 
-Github Action Validate CODEOWNERS runs a series of checks on the codeowners file to ensure that its valid, appropriate, and well-linted.
+Github Action Validate CODEOWNERS runs a series of checks on the CODEOWNERS file to ensure that it's valid and well-linted.
+
+Ensuring your repository's CODEOWNERS file is valid can be critical to the development process if, for instance, your project uses [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) conditions that rely on definitions in CODEOWNERS.
 
 ---
 
@@ -64,7 +66,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-Copy the `sample_workflow_file.yaml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
+Copy the `sample_workflow_file.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
 This will cause the validation functionality to execute whenever any event occurs on any pull request, or whenever an owner of the repository requests it, via the `workflow_dispatch` trigger.
 
 
