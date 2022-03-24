@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: cloudposse/github-action-validate-codeowners@main
       with:
-        special-token: ${{ secrets.PUBLIC_REPO_ACCESS_TOKEN }}
+        special-token: ${{ secrets.GITHUB_TOKEN }}
