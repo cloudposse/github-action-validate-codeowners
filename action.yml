@@ -4,6 +4,7 @@ inputs:
   token:
     description: "Github token (if you have permissions issues, see: https://github.com/mszostok/codeowners-validator/blob/main/docs/gh-token.md)"
     required: false
+
 runs:
   using: "composite"
   steps:
