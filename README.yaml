@@ -23,19 +23,16 @@ copyrights:
 github_repo: cloudposse/github-action-validate-codeowners
 
 # Badges to display
-#badges:
-#  - name: "Build Status"
-#    image: "https://github.com/cloudposse/build-harness/workflows/docker/badge.svg?branch=master"
-#    url: "https://github.com/cloudposse/build-harness/actions?query=workflow%3Adocker"
-#  - name: "Latest Release"
-#    image: "https://img.shields.io/github/release/cloudposse/build-harness.svg"
-#    url: "https://github.com/cloudposse/build-harness/releases/latest"
-#  - name: "Slack Community"
-#    image: "https://slack.cloudposse.com/badge.svg"
-#    url: "https://slack.cloudposse.com"
-#  - name: "Discourse Forum"
-#    image: "https://img.shields.io/discourse/https/ask.sweetops.com/posts.svg"
-#    url: "https://ask.sweetops.com/"
+badges:
+  - name: "Build Status"
+    image: "https://github.com/cloudposse/build-harness/workflows/docker/badge.svg?branch=master"
+    url: "https://github.com/cloudposse/build-harness/actions?query=workflow%3Adocker"
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/cloudposse/build-harness.svg"
+    url: "https://github.com/cloudposse/build-harness/releases/latest"
+  - name: "Slack Community"
+    image: "https://slack.cloudposse.com/badge.svg"
+    url: "https://slack.cloudposse.com"
 
 related:
   - name: "GitHub Action Auto-format"
@@ -56,6 +53,8 @@ related:
 #  - name: "Wikipedia - Test Harness"
 #    description: 'The `build-harness` is similar in concept to a "Test Harness"'
 #    url: "https://en.wikipedia.org/wiki/Test_harness"
+##### Reference the calling repo here!!!
+
 
 # Screenshots
 #screenshots:
