@@ -1,6 +1,6 @@
 
 <!-- markdownlint-disable -->
-# GitHub Action Validate CODEOWNERS
+# GitHub Action Validate CODEOWNERS [![Build Status](https://github.com/cloudposse/build-harness/workflows/docker/badge.svg?branch=master)](https://github.com/cloudposse/build-harness/actions?query=workflow%3Adocker) [![Latest Release](https://img.shields.io/github/release/cloudposse/build-harness.svg)](https://github.com/cloudposse/build-harness/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 <!-- markdownlint-restore -->
 
 [![README Header][readme_header_img]][readme_header_link]
@@ -66,11 +66,16 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-Copy the `sample_workflow_file.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
-This will cause the validation functionality to execute whenever any event occurs on any pull request, or whenever an owner of the repository requests it, via the `workflow_dispatch` trigger.
+Copy the `.github/workflows/validate-codeowners.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
+This will cause the validation functionality to execute whenever any event occurs on any pull request.
 
 
 
+
+## Examples
+
+Here's a real world example:
+- [`github-action-validate-codeowners`](https://github.com/cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners.yml) - The self-testing Validate CODEOWNERS GithHub Action
 
 
 
@@ -92,6 +97,14 @@ Check out these related projects.
 - [GitHub Action Auto-release](https://github.com/cloudposse/github-action-auto-release) - Automatically draft release notes for a new release when merges are made into the default branch
 - [GitHub Action Terraform Auto-context](https://github.com/cloudposse/github-action-terraform-auto-context) - Automatically update `context.tf` whenever a new version becomes available
 - [GitHub Action Terraform CI](https://github.com/cloudposse/github-action-terraform-ci) - Full suite of Terraform CI actions, along with chatops support
+
+
+## References
+
+For additional context, refer to some of these links.
+
+- [Codeowners Validator](https://github.com/mszostok/codeowners-validator) - A GitHub Action that validates the CODEOWNERS file in a repo
+
 
 ## Help
 

@@ -7,9 +7,6 @@
 # Name of this project
 name: GitHub Action Validate CODEOWNERS
 
-# Logo for this project
-#logo: docs/logo.png
-
 # License of this project
 license: "APACHE2"
 
@@ -49,52 +46,26 @@ related:
     url: "https://github.com/cloudposse/github-action-terraform-ci"
 
 # References
-#references:
-#  - name: "Wikipedia - Test Harness"
-#    description: 'The `build-harness` is similar in concept to a "Test Harness"'
-#    url: "https://en.wikipedia.org/wiki/Test_harness"
-##### Reference the calling repo here!!!
-
-
-# Screenshots
-#screenshots:
-#  - name: "demo"
-#    description: "Example of using the `build-harness` to build a docker image"
-#    url: "https://cdn.rawgit.com/cloudposse/build-harness/master/docs/demo.svg"
+references:
+  - name: "Codeowners Validator"
+    description: 'A GitHub Action that validates the CODEOWNERS file in a repo'
+    url: "https://github.com/mszostok/codeowners-validator"
 
 # Short description of this project
 description: |-
   Github Action Validate CODEOWNERS runs a series of checks on the CODEOWNERS file to ensure that it's valid and well-linted.
 
   Ensuring your repository's CODEOWNERS file is valid can be critical to the development process if, for instance, your project uses [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) conditions that rely on definitions in CODEOWNERS.
-# Introduction to the project
-#introduction: |-
-#  This is an introduction.
 
 # How to use this project
 usage: |-
-  Copy the `sample_workflow_file.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
-  This will cause the validation functionality to execute whenever any event occurs on any pull request, or whenever an owner of the repository requests it, via the `workflow_dispatch` trigger.
+  Copy the `.github/workflows/validate-codeowners.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
+  This will cause the validation functionality to execute whenever any event occurs on any pull request.
 
 # Example usage
-#examples: |-
-#  Here are some real world examples:
-#  - [`github-authorized-keys`](https://github.com/cloudposse/github-authorized-keys/) - A Golang project that leverages `docker/%`, `go/%`, `travis/%` targets
-#  - [`charts`](https://github.com/cloudposse/charts/) - A collection of Helm Charts that leverages `docker/%` and `helm/%` targets
-#  - [`bastion`](https://github.com/cloudposse/bastion/) - A docker image that leverages `docker/%` and `bash/lint` targets
-#  - [`terraform-null-label`](https://github.com/cloudposse/terraform-null-label/) - A terraform module that leverages `terraform/%` targets
-
-# How to get started quickly
-#quickstart: |-
-#  Here's how to get started...
-#  1. `git clone https://github.com/cloudposse/build-harness.git` to pull down the repository
-#  2. `make init` to initialize the [`build-harness`](https://github.com/cloudposse/build-harness/)
-
-# Other files to include in this README from the project folder
-#include:
-#  - "docs/targets.md"
-#  - "docs/extensions.md"
-#  - "docs/auto-init.md"
+examples: |-
+  Here's a real world example:
+  - [`github-action-validate-codeowners`](https://github.com/cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners.yml) - The self-testing Validate CODEOWNERS GithHub Action
 
 # Contributors to this project
 contributors:

@@ -1,7 +1,6 @@
 name: "validate-codeowners"
 on:
   pull_request:
-  workflow_dispatch:
 
 jobs:
   validate-codeowners:
@@ -9,4 +8,4 @@ jobs:
     steps:
     - uses: cloudposse/github-action-validate-codeowners@main
       with:
-        special-token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
