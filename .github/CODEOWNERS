@@ -6,4 +6,5 @@
 
 # Cloud Posse must review any changes to standard context definition,
 # but some changes can be rubber-stamped.
-README.yaml       @dylanbannon
+README.yaml       @cloudposse/docs
+README.md         @cloudposse/docs
