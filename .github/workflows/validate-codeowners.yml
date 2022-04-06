@@ -6,6 +6,6 @@ jobs:
   validate-codeowners:
     runs-on: ubuntu-latest
     steps:
-    - uses: cloudposse/github-action-validate-codeowners@main
+    - uses: cloudposse/github-action-validate-codeowners@review-branch
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
