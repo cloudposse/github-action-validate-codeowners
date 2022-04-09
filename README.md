@@ -73,13 +73,13 @@ This will cause the validation functionality to execute whenever any event occur
 
 Here's how to get started...
 1. Copy the `.github/workflows/validate-codeowners.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
-2. Replace `${{ secrets.TOKEN_WITH_SPECIAL_PERMISSIONS }}` with the name of a token whose permissions are in line with the instructions [here](https://github.com/mszostok/codeowners-validator/blob/main/docs/gh-token.md).
+2. Replace `${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}` with the name of a token whose permissions are in line your target repo's requirements, according to the instructions [here](https://github.com/mszostok/codeowners-validator/blob/main/docs/gh-token.md).
 
 
 ## Examples
 
 Here's a real world example:
-- [`github-action-validate-codeowners`](https://github.com/cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners.yml) - The self-testing Validate CODEOWNERS GithHub Action
+- [`github-action-validate-codeowners`](https://github.com/cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners.yml) - Cloud Posse's self-testing Validate CODEOWNERS GitHub Action
 
 
 
