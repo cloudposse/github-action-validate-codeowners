@@ -18,7 +18,7 @@ runs:
       #   checks: "files,syntax,owners,duppatterns"
       checks: "syntax,owners,duppatterns"
       # GitHub access token is required only if the `owners` check is enabled
-      github_access_token: "${{ inputs.token }}"
+      github_access_token: ${{ inputs.token }}
   - uses: mszostok/codeowners-validator@v0.5.0
     if: github.event.pull_request.head.repo.full_name != github.repository
     name: "Syntax check of CODEOWNERS"
