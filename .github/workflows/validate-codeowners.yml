@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: cloudposse/github-action-validate-codeowners@review-branch
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}
