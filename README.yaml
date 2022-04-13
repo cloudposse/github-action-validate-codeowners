@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: GitHub Action Validate CODEOWNERS
+name: GitHub Action to Validate CODEOWNERS
 
 # License of this project
 license: "APACHE2"
