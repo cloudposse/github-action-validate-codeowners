@@ -48,7 +48,7 @@ related:
 # References
 references:
   - name: "Codeowners Validator"
-    description: 'A GitHub Action that validates the CODEOWNERS file in a repo'
+    description: 'A GitHub Action that validates the `CODEOWNERS` file in a repo'
     url: "https://github.com/mszostok/codeowners-validator"
 
 # Short description of this project
