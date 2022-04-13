@@ -1,6 +1,8 @@
 
 <!-- markdownlint-disable -->
-# GitHub Action Validate CODEOWNERS [![Build Status](https://github.com/cloudposse/build-harness/workflows/docker/badge.svg?branch=master)](https://github.com/cloudposse/build-harness/actions?query=workflow%3Adocker) [![Latest Release](https://img.shields.io/github/release/cloudposse/build-harness.svg)](https://github.com/cloudposse/build-harness/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+# GitHub Action to Validate CODEOWNERS
+
+ [![Build Status](https://github.com/cloudposse/build-harness/workflows/docker/badge.svg?branch=master)](https://github.com/cloudposse/build-harness/actions?query=workflow%3Adocker) [![Latest Release](https://img.shields.io/github/release/cloudposse/build-harness.svg)](https://github.com/cloudposse/build-harness/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 <!-- markdownlint-restore -->
 
 [![README Header][readme_header_img]][readme_header_link]
@@ -28,9 +30,9 @@
 
 -->
 
-Github Action Validate CODEOWNERS runs a series of checks on the CODEOWNERS file to ensure that it's valid and well-linted.
+Github Action Validate `CODEOWNERS` runs a series of checks on the `CODEOWNERS` file to ensure that it's valid and well-linted.
 
-Ensuring your repository's CODEOWNERS file is valid can be critical to the development process if, for instance, your project uses [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) conditions that rely on definitions in CODEOWNERS.
+Ensuring your repository's `CODEOWNERS` file is valid can be critical to the development process if, for instance, your project uses [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) conditions that rely on definitions in `CODEOWNERS`.
 
 ---
 
@@ -66,7 +68,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-Copy the `.github/workflows/validate-codeowners.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality, and ensure that you are using an appropriate token in the workflow file.
+Copy the `.github/workflows/validate-codeowners.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate `CODEOWNERS` functionality, and ensure that you are using an appropriate token in the workflow file.
 This will cause the validation functionality to execute whenever any event occurs on any pull request.
 
 ## Quick Start
@@ -107,7 +109,7 @@ Check out these related projects.
 
 For additional context, refer to some of these links.
 
-- [Codeowners Validator](https://github.com/mszostok/codeowners-validator) - A GitHub Action that validates the CODEOWNERS file in a repo
+- [Codeowners Validator](https://github.com/mszostok/codeowners-validator) - A GitHub Action that validates the `CODEOWNERS` file in a repo
 
 
 ## Help
@@ -275,10 +277,10 @@ Check out [our other projects][github], [follow us on twitter][twitter], [apply 
   [readme_footer_link]: https://cloudposse.com/readme/footer/link?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/github-action-validate-codeowners&utm_content=readme_footer_link
   [readme_commercial_support_img]: https://cloudposse.com/readme/commercial-support/img
   [readme_commercial_support_link]: https://cloudposse.com/readme/commercial-support/link?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/github-action-validate-codeowners&utm_content=readme_commercial_support_link
-  [share_twitter]: https://twitter.com/intent/tweet/?text=GitHub+Action+Validate+CODEOWNERS&url=https://github.com/cloudposse/github-action-validate-codeowners
-  [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=GitHub+Action+Validate+CODEOWNERS&url=https://github.com/cloudposse/github-action-validate-codeowners
+  [share_twitter]: https://twitter.com/intent/tweet/?text=GitHub+Action+to+Validate+CODEOWNERS&url=https://github.com/cloudposse/github-action-validate-codeowners
+  [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=GitHub+Action+to+Validate+CODEOWNERS&url=https://github.com/cloudposse/github-action-validate-codeowners
   [share_reddit]: https://reddit.com/submit/?url=https://github.com/cloudposse/github-action-validate-codeowners
   [share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/cloudposse/github-action-validate-codeowners
   [share_googleplus]: https://plus.google.com/share?url=https://github.com/cloudposse/github-action-validate-codeowners
-  [share_email]: mailto:?subject=GitHub+Action+Validate+CODEOWNERS&body=https://github.com/cloudposse/github-action-validate-codeowners
+  [share_email]: mailto:?subject=GitHub+Action+to+Validate+CODEOWNERS&body=https://github.com/cloudposse/github-action-validate-codeowners
   [beacon]: https://ga-beacon.cloudposse.com/UA-76589703-4/cloudposse/github-action-validate-codeowners?pixel&cs=github&cm=readme&an=github-action-validate-codeowners
