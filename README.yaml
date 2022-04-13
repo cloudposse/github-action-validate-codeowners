@@ -53,7 +53,7 @@ references:
 
 # Short description of this project
 description: |-
-  Github Action Validate CODEOWNERS runs a series of checks on the CODEOWNERS file to ensure that it's valid and well-linted.
+  Github Action Validate `CODEOWNERS` runs a series of checks on the `CODEOWNERS` file to ensure that it's valid and well-linted.
 
   Ensuring your repository's CODEOWNERS file is valid can be critical to the development process if, for instance, your project uses [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) conditions that rely on definitions in CODEOWNERS.
 
