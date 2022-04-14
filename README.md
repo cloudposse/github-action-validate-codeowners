@@ -2,7 +2,7 @@
 <!-- markdownlint-disable -->
 # GitHub Action to Validate CODEOWNERS
 
- [![Test Status](https://github.com/cloudposse/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=review-branch)](https://github.com/cloudposse/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners) [![Latest Release](https://img.shields.io/github/release/cloudposse/github-action-validate-codeowners.svg)](https://github.com/cloudposse/github-action-validate-codeowners/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+ [![Test Status](https://github.com/cloudposse/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=main)](https://github.com/cloudposse/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners) [![Latest Release](https://img.shields.io/github/release/cloudposse/github-action-validate-codeowners.svg)](https://github.com/cloudposse/github-action-validate-codeowners/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 <!-- markdownlint-restore -->
 
 [![README Header][readme_header_img]][readme_header_link]

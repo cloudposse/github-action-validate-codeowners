@@ -22,7 +22,7 @@ github_repo: cloudposse/github-action-validate-codeowners
 # Badges to display
 badges:
   - name: "Test Status"
-    image: "https://github.com/cloudposse/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=review-branch"
+    image: "https://github.com/cloudposse/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=main"
     url: "https://github.com/cloudposse/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners"
   - name: "Latest Release"
     image: "https://img.shields.io/github/release/cloudposse/github-action-validate-codeowners.svg"
