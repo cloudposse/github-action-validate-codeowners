@@ -2,7 +2,7 @@
 <!-- markdownlint-disable -->
 # GitHub Action to Validate CODEOWNERS
 
- [![Build Status](https://github.com/cloudposse/build-harness/workflows/docker/badge.svg?branch=master)](https://github.com/cloudposse/build-harness/actions?query=workflow%3Adocker) [![Latest Release](https://img.shields.io/github/release/cloudposse/build-harness.svg)](https://github.com/cloudposse/build-harness/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+ [![Test Status](https://github.com/cloudposse/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=review-branch)](https://github.com/cloudposse/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners) [![Latest Release](https://img.shields.io/github/release/cloudposse/github-action-validate-codeowners.svg)](https://github.com/cloudposse/github-action-validate-codeowners/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 <!-- markdownlint-restore -->
 
 [![README Header][readme_header_img]][readme_header_link]
@@ -30,7 +30,7 @@
 
 -->
 
-Github Action Validate `CODEOWNERS` runs a series of checks on the `CODEOWNERS` file to ensure that it's valid and well-linted.
+This is a Github Action to validate the `CODEOWNERS` file by running a series of checks against the `CODEOWNERS` file to ensure that it's valid and well-linted.
 
 Ensuring your repository's `CODEOWNERS` file is valid can be critical to the development process if, for instance, your project uses [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) conditions that rely on definitions in `CODEOWNERS`.
 
