@@ -6,6 +6,6 @@ jobs:
   validate-codeowners:
     runs-on: ubuntu-latest
     steps:
-    - uses: cloudposse/github-action-validate-codeowners@main
+    - uses: cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners-reusable.yml@adding_auto-release
       with:
         token: ${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}
