@@ -4,7 +4,6 @@ on:
     secrets:
       token:
         required: false
-        default: ${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}
 
 jobs:
   validate-codeowners:
