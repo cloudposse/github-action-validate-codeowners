@@ -1,6 +1,6 @@
 name: "validate-codeowners"
 on:
-  pull_request_target:
+  pull_request:
 
 jobs:
   validate-codeowners:
