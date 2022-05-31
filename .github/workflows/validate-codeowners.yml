@@ -1,9 +1,9 @@
 name: "validate-codeowners"
 on:
-  pull_request:
+  pull_request_target:
 
 jobs:
   validate-codeowners:
-    uses: cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners-reusable.yml@adding_auto-release
+    uses: cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners-reusable.yml@main
     secrets:
       token: ${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}
