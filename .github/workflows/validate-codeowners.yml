@@ -1,11 +1,9 @@
 name: "validate-codeowners"
 on:
-  pull_request:
+  pull_request_target:
 
 jobs:
   validate-codeowners:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: cloudposse/github-action-validate-codeowners@main
-      with:
-        token: ${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}
+    uses: cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners-reusable.yml@main
+    secrets:
+      token: ${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}

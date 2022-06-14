@@ -1,0 +1,14 @@
+name: "validate-codeowners-reusable"
+on:
+  workflow_call:
+    secrets:
+      token:
+        required: true
+
+jobs:
+  validate-codeowners:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: cloudposse/github-action-validate-codeowners@main
+      with:
+        token: ${{ secrets.token }}
