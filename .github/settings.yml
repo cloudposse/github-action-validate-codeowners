@@ -12,3 +12,4 @@ repository:
   name: github-action-validate-codeowners
   description: GitHub Action to Validate CODEOWNERS
   topics: ""
+
